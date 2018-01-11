@@ -1,7 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 using namespace std;
 
-
 #include <windows.h>
 #include <windowsx.h>
 #include <stdio.h>
@@ -28,6 +27,8 @@ void main()
 	//figura = &romb;
 	//figura = &fr;
 	figura = &cr;
+	//cr.SetInHorizDiagonal(50);
+	cr.SetHorizDiagonal(150);
 	figura->Draw(hdc);
 	cin.get();
 	// освобождаем контекст отображения

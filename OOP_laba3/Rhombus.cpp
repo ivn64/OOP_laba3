@@ -4,23 +4,22 @@ using namespace std;
 
 Rhombus::Rhombus()
 {
-	vertDiagonal = 360;					//360
-	horizDiagonal = 400;				//400
-	frame—olor.rgbtRed = 0;				//0
-	frame—olor.rgbtGreen = 255;			//255
-	frame—olor.rgbtBlue = 0;			//0
+	vertDiagonal = 360;
+	horizDiagonal = 400;
+	frame—olor.rgbtRed = 0;
+	frame—olor.rgbtGreen = 255;
+	frame—olor.rgbtBlue = 0;
 }
-Rhombus::Rhombus(int tVertDiagonal, int tHorizDiagonal, int x, int y, RGBTRIPLE tbackground—olor, RGBTRIPLE tFrame—olor)
+Rhombus::Rhombus(int tVertDiagonal, int tHorizDiagonal, RGBTRIPLE tFrame—olor)
 {
-
-	vertDiagonal = tVertDiagonal;								//360
-	horizDiagonal = tHorizDiagonal;								//400
-	frame—olor.rgbtRed = tFrame—olor.rgbtRed;					//0
-	frame—olor.rgbtGreen = tFrame—olor.rgbtGreen;				//255
-	frame—olor.rgbtBlue = tFrame—olor.rgbtBlue;					//0
+	vertDiagonal = tVertDiagonal;
+	horizDiagonal = tHorizDiagonal;
+	frame—olor.rgbtRed = tFrame—olor.rgbtRed;
+	frame—olor.rgbtGreen = tFrame—olor.rgbtGreen;
+	frame—olor.rgbtBlue = tFrame—olor.rgbtBlue;
 }
-int Rhombus::GetVertDiagonal() 
-{ 
+int Rhombus::GetVertDiagonal()
+{
 	return vertDiagonal;
 }
 int Rhombus::GetHorizDiagonal()
@@ -28,7 +27,7 @@ int Rhombus::GetHorizDiagonal()
 	return horizDiagonal;
 }
 RGBTRIPLE Rhombus::GetFrame—olor()
-{ 
+{
 	return frame—olor;
 }
 void Rhombus::SetVertDiagonal(int newVertDiagonal)

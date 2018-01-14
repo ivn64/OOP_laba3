@@ -13,13 +13,13 @@ void Shape::SetShapeYCenter(int y)
 {
 	shapeYCenter = y;
 }
-void Shape::MoveShapeXCenter(int move)
+void Shape::MoveShapeXCenter(int moveX)
 {
-	shapeXCenter += move;
+	shapeXCenter += moveX;
 }
-void Shape::MoveShapeYCenter(int move)
+void Shape::MoveShapeYCenter(int moveY)
 {
-	shapeYCenter += move;
+	shapeYCenter += moveY;
 }
 int Shape::GetShapeXCenter()
 {

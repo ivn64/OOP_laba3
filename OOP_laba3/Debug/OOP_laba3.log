@@ -1,3 +1,2 @@
-﻿  main.cpp
-g:\мое\программирование\ооп\лаба 3\oop_laba3\oop_laba3\main.cpp(17): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  OOP_laba3.vcxproj -> G:\Мое\Программирование\ООП\Лаба 3\OOP_laba3\Debug\OOP_laba3.exe
+﻿  Shape.cpp
+  OOP_laba3.vcxproj -> E:\Мое\Программирование\ООП\Лаба 3\OOP_laba3\Debug\OOP_laba3.exe

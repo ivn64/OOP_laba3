@@ -14,7 +14,7 @@ protected:
 
 public:
 	Rhombus();
-	Rhombus(int, int, int, int, RGBTRIPLE, RGBTRIPLE);
+	Rhombus(int, int, RGBTRIPLE);
 	int GetVertDiagonal();
 	int GetHorizDiagonal();
 	RGBTRIPLE GetFrame—olor();
